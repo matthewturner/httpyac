@@ -51,6 +51,7 @@
     "prepare": "husky install",
     "start": "npm run watch",
     "test": "node --experimental-vm-modules ./node_modules/.bin/jest  --coverage --coverageProvider=v8",
+    "testwin": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js  --coverage --coverageProvider=v8",
     "tsc-watch": "tsc --watch --project tsconfig.build.json",
     "tsc:check": "tsc --noEmit --project tsconfig.json",
     "tsc": "tsc --declaration --emitDeclarationOnly --project tsconfig.build.json",
